@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Find the bug</title>
 </head>
@@ -24,7 +23,7 @@
       integer numbers <strong><code>a</code></strong> and
       <strong><code>b</code></strong>
       and returns the
-      <strong><code>a mod b</code></strong> <br>
+      <strong><code>sum of a and b</code></strong> <br>
       However there is a problem with my code. The operation
       doesn't return the correct value :( <br> Can you help
       me find the Bug?
@@ -33,21 +32,16 @@
     <div class="calculator">
       <div class="first-value">
         <label for="first-number">first number (a)</label>
-        <input type="number" id="first-number"
-          name="numberA" required maxlength="6"
-          pattern="/^[1-9][0-9]*$/">
+        <input type="number" id="first-number" name="numberA" required maxlength="6" pattern="/^[1-9][0-9]*$/">
       </div>
       <div class="second-value">
         <label for="second-number">second number (b)</label>
-        <input type="number" id="second-number"
-          name="numberB" required maxlength="6"
-          pattern="/^[1-9][0-9]*$/">
+        <input type="number" id="second-number" name="numberB" required maxlength="6" pattern="/^[1-9][0-9]*$/">
       </div>
-      <button type="button"
-        class="calculate">Calculate</button>
+      <button type="button" class="calculate">Calculate</button>
       <div class="result">
         <label for="res">Result</label>
-        <div class="res" name="res"></div>
+        <div class="res" id="res"></div>
       </div>
     </div>
 
